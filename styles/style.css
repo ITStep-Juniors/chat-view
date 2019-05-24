@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 40px 40px 0px 40px;
+}
+
+
+.user-card {
+    width: 350px;
+    overflow: hidden;
+    border: 1px solid rgb(233, 233, 233);
+    background: rgb(249, 249, 249);
+    border-radius: 8px;
+    max-height: 300px;
+    padding-bottom: 20px;
+}
+
+.user-card .top {
+    display: flex;
+    height: 100px;
+}
+
+.user-card .top .left {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-card .top .left img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-card .top .right p:first-child {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.user-card .top .right p:last-child {
+    font-size: 12px;
+    margin-top: 0px;
+    color: rgb(65, 65, 65);
+}
+
+.user-card .bottom {
+    margin-top: 0px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: rgb(32, 32, 32);
+}
+
+.user-card .bottom p {
+    margin: 0px;
+}
+
+
+.user-card .bottom .btn {
+    border: none;
+    background: steelblue;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    font-size: 13px;
+    font-weight: 700;
+    float: right;
+}
